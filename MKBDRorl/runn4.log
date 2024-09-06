@@ -1,0 +1,236 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+bb1 =
+
+    0.1000
+
+>> 
+bb2 =
+
+    0.1000
+
+>> 
+bb3 =
+
+    0.1000
+
+>> >> 
+ans =
+
+     1
+
+
+ans =
+
+   100
+
+fdffdffdffdqqd
+ans =
+
+    0.8136
+
+
+ans =
+
+    0.8121
+
+
+ans =
+
+    0.0931
+
+
+ans =
+
+    0.0914
+
+
+ans =
+
+     1
+
+
+ans =
+
+    10
+
+fdffdffdffdqqd
+ans =
+
+    0.8106
+
+
+ans =
+
+    0.8136
+
+
+ans =
+
+    0.0926
+
+
+ans =
+
+    0.0893
+
+
+ans =
+
+     1
+
+
+ans =
+
+     1
+
+fdffdffdffdqqd
+ans =
+
+    0.8146
+
+
+ans =
+
+    0.8152
+
+
+ans =
+
+    0.0933
+
+
+ans =
+
+    0.0950
+
+
+ans =
+
+     1
+
+
+ans =
+
+    0.1000
+
+fdffdffdffdqqd
+ans =
+
+    0.8232
+
+
+ans =
+
+    0.8227
+
+
+ans =
+
+    0.0869
+
+
+ans =
+
+    0.0874
+
+
+ans =
+
+     1
+
+
+ans =
+
+    0.0100
+
+fdffdffdffdqqd
+ans =
+
+    0.8187
+
+
+ans =
+
+    0.8152
+
+
+ans =
+
+    0.0877
+
+
+ans =
+
+    0.0863
+
+
+ans =
+
+     1
+
+
+ans =
+
+   1.0000e-03
+
+fdffdffdffdqqd
+ans =
+
+    0.8177
+
+
+ans =
+
+    0.8197
+
+
+ans =
+
+    0.0876
+
+
+ans =
+
+    0.0875
+
+
+ans =
+
+     1
+
+
+ans =
+
+   1.0000e-04
+
+fdffdffdffdqqd
+ans =
+
+    0.8172
+
+
+ans =
+
+    0.8182
+
+
+ans =
+
+    0.0871
+
+
+ans =
+
+    0.0872
+
+>> 

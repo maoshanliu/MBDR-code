@@ -1,0 +1,56 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+bb1 =
+
+    0.1000
+
+>> 
+bb2 =
+
+    0.1000
+
+>> 
+bb3 =
+
+    0.1000
+
+>> >> 
+ans =
+
+   100
+
+
+ans =
+
+   1.0000e-04
+
+fdffdffdffdqqd
+ans =
+
+    0.6944
+
+
+ans =
+
+    0.6970
+
+
+ans =
+
+    0.2506
+
+
+ans =
+
+    0.2493
+
+>> 

@@ -1,0 +1,64 @@
+function [B,Z,W] = BDR_solver(X,k,lambda,gamma) 
+
+% min_{Z,B,W} 0.5*||X-XZ||_F^2+0.5*lambda*||Z-B||_F^2+gamma*<Diag(B1)-B,W>
+% s.t. diag(B)=0, B>=0, B=B^T, 
+%      0<=W<=I, Tr(W)=k.
+
+if nargin < 5
+    display = 0;
+end
+% kType='pol';
+% if(strcmpi(kType,'pol')) 
+%           a = 12;
+%           b = 2;
+%           KG = polynKernelMatrix(X,a,b); % hopkins 2.2 3   %two frames 3.4 2  % yale face 12 2    
+% end
+
+n = size(X,2);
+tol = 1e-10;
+maxIter = 1; 
+one = ones(n,1);
+XtX = (X'*X+12).^2;
+I = eye(n);
+invXtXI = I/(XtX+lambda*I);
+%invXtXI = I/(KG+lambda*I);
+gammaoverlambda = gamma/lambda;
+Z = zeros(n);
+W = Z;
+B = Z;
+L = diag(B*one)-B;
+iter = 0;
+
+while iter < maxIter
+    iter = iter + 1;        
+      
+    % update Z
+    Zk = Z;
+    Z = invXtXI*(XtX+lambda*B);
+    
+    % update B
+    Bk = B;
+    B = Z-gammaoverlambda*(repmat(diag(W),1,n)-W);
+    B = max(0,(B+B')/2);
+    B = B-diag(diag(B));
+    L = diag(B*one)-B;    
+    
+    % update W
+    [V, D] = eig(L);
+    D = diag(D);
+    [~, ind] = sort(D);    
+    W = V(:,ind(1:k))*V(:,ind(1:k))';
+    
+%     diffZ = norm(Z-Zk,'fro')/norm(Zk,'fro');
+%     diffB = norm(B-Bk,'fro')/norm(Bk,'fro'); 
+    diffZ = max(max(abs(Z-Zk)));
+    diffB = max(max(abs(B-Bk)));    
+    stopC = max([diffZ,diffB]);
+
+    if stopC < tol 
+        break;
+    end
+end
+
+
+

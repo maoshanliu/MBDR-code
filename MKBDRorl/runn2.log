@@ -1,0 +1,576 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 5 (9.10.0.1739362) 64-bit (glnxa64)
+                               August 9, 2021
+
+ 
+For online documentation, see https://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+bb1 =
+
+    0.0100
+
+>> 
+bb2 =
+
+    0.0100
+
+>> 
+bb3 =
+
+    0.0100
+
+>> >> 
+ans =
+
+        1000
+
+
+ans =
+
+   100
+
+fdffdffdffdqqd
+ans =
+
+    0.7323
+
+
+ans =
+
+    0.7318
+
+
+ans =
+
+    0.1692
+
+
+ans =
+
+    0.1691
+
+
+ans =
+
+        1000
+
+
+ans =
+
+    10
+
+fdffdffdffdqqd
+ans =
+
+    0.6626
+
+
+ans =
+
+    0.6576
+
+
+ans =
+
+    0.2851
+
+
+ans =
+
+    0.2938
+
+
+ans =
+
+        1000
+
+
+ans =
+
+     1
+
+fdffdffdffdqqd
+ans =
+
+    0.6636
+
+
+ans =
+
+    0.6667
+
+
+ans =
+
+    0.2803
+
+
+ans =
+
+    0.2771
+
+
+ans =
+
+        1000
+
+
+ans =
+
+    0.1000
+
+fdffdffdffdqqd
+ans =
+
+    0.6631
+
+
+ans =
+
+    0.6652
+
+
+ans =
+
+    0.2762
+
+
+ans =
+
+    0.2786
+
+
+ans =
+
+        1000
+
+
+ans =
+
+    0.0100
+
+fdffdffdffdqqd
+ans =
+
+    0.6657
+
+
+ans =
+
+    0.6652
+
+
+ans =
+
+    0.2762
+
+
+ans =
+
+    0.2752
+
+
+ans =
+
+        1000
+
+
+ans =
+
+   1.0000e-03
+
+fdffdffdffdqqd
+ans =
+
+    0.6682
+
+
+ans =
+
+    0.6712
+
+
+ans =
+
+    0.2764
+
+
+ans =
+
+    0.2767
+
+
+ans =
+
+        1000
+
+
+ans =
+
+   1.0000e-04
+
+fdffdffdffdqqd
+ans =
+
+    0.6667
+
+
+ans =
+
+    0.6682
+
+
+ans =
+
+    0.2753
+
+
+ans =
+
+    0.2738
+
+
+ans =
+
+   100
+
+
+ans =
+
+   100
+
+fdffdffdffdqqd
+ans =
+
+    0.7970
+
+
+ans =
+
+    0.7970
+
+
+ans =
+
+    0.1208
+
+
+ans =
+
+    0.1179
+
+
+ans =
+
+   100
+
+
+ans =
+
+    10
+
+fdffdffdffdqqd
+ans =
+
+    0.6914
+
+
+ans =
+
+    0.7045
+
+
+ans =
+
+    0.2329
+
+
+ans =
+
+    0.2289
+
+
+ans =
+
+   100
+
+
+ans =
+
+     1
+
+fdffdffdffdqqd
+ans =
+
+    0.6692
+
+
+ans =
+
+    0.6773
+
+
+ans =
+
+    0.2472
+
+
+ans =
+
+    0.2462
+
+
+ans =
+
+   100
+
+
+ans =
+
+    0.1000
+
+fdffdffdffdqqd
+ans =
+
+    0.6717
+
+
+ans =
+
+    0.6697
+
+
+ans =
+
+    0.2427
+
+
+ans =
+
+    0.2423
+
+
+ans =
+
+   100
+
+
+ans =
+
+    0.0100
+
+fdffdffdffdqqd
+ans =
+
+    0.6485
+
+
+ans =
+
+    0.6530
+
+
+ans =
+
+    0.2597
+
+
+ans =
+
+    0.2642
+
+
+ans =
+
+   100
+
+
+ans =
+
+   1.0000e-03
+
+fdffdffdffdqqd
+ans =
+
+    0.6838
+
+
+ans =
+
+    0.6788
+
+
+ans =
+
+    0.2306
+
+
+ans =
+
+    0.2318
+
+
+ans =
+
+   100
+
+
+ans =
+
+   1.0000e-04
+
+fdffdffdffdqqd
+ans =
+
+    0.6596
+
+
+ans =
+
+    0.6621
+
+
+ans =
+
+    0.2489
+
+
+ans =
+
+    0.2514
+
+
+ans =
+
+    10
+
+
+ans =
+
+   100
+
+fdffdffdffdqqd
+ans =
+
+    0.7924
+
+
+ans =
+
+    0.7894
+
+
+ans =
+
+    0.1069
+
+
+ans =
+
+    0.1074
+
+
+ans =
+
+    10
+
+
+ans =
+
+    10
+
+fdffdffdffdqqd
+ans =
+
+    0.7389
+
+
+ans =
+
+    0.7439
+
+
+ans =
+
+    0.1849
+
+
+ans =
+
+    0.1901
+
+
+ans =
+
+    10
+
+
+ans =
+
+     1
+
+fdffdffdffdqqd
+ans =
+
+    0.6545
+
+
+ans =
+
+    0.6561
+
+
+ans =
+
+    0.2920
+
+
+ans =
+
+    0.2974
+
+
+ans =
+
+    10
+
+
+ans =
+
+    0.1000
+
+fdffdffdffdqqd
+ans =
+
+    0.6258
+
+
+ans =
+
+    0.6258
+
+
+ans =
+
+    0.3075
+
+
+ans =
+
+    0.3069
+
+
+ans =
+
+    10
+
+
+ans =
+
+    0.0100
+
+fdf
